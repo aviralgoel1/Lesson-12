@@ -1,7 +1,7 @@
 valid = False
 while not valid:
     try:
-        n=int("input a number")
+        n=int(input("input a number: "))
         while n%2==0:
             print ("bye")
         valid = True
